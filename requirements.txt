@@ -1,0 +1,4 @@
+pandas==2.2.2
+biopython>=1.81
+openai>=1.0.0
+python-dotenv>=1.0.0
