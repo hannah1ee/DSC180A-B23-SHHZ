@@ -1,100 +1,136 @@
-Parkinson’s Disease Drug Repurposing
+# MTS - Dialog  & Pubmed Literature Pipeline
 
-This repository implements a three-stage biomedical text-mining pipeline for identifying potential drug-repurposing candidates for Parkinson’s disease using:
-PubMed literature scraping
-OpenAI LLM-powered semantic extraction
-Classical NLP keyword & mechanism analysis
+This repository contains three scripts designed to extract and analyze biomedical information from PubMed literature for identifying drug repurposing candidates for Parkinson's Disease, and uses semlib as well to analyze biomedical information.
 
-The workflow is inspired by real clinical dialog datasets such as the MTS-Dialog Patient–Doctor dataset.
+---
 
-Project Structure
-├── pubmed_scraper.py                # Step 1 — Download PubMed abstracts
-├── LLM_semantic_extraction.py       # Step 2 — LLM-based semantic analysis
-├── keyword_rule_based_analysis.py   # Step 3 — Keyword/mechanism extraction
-├── parkinsons_drug_repurposing.csv  # Output from Step 1
-└── README.md
+## Files Overview
 
-1. Overview of the Pipeline
-         ┌────────────────────┐
-         │  PubMed Scraper    │
-         │ (pubmed_scraper)   │
-         └─────────┬──────────┘
-                   ▼
-     parkinsons_drug_repurposing.csv
-                   ▼
-    ┌──────────────────────────────┐
-    │ Semantic LLM Extraction      │
-    │ (LLM_semantic_extraction)    │
-    └──────────┬───────────────────┘
-               │
-               ▼
-    ┌──────────────────────────────┐
-    │ Keyword / Rule-Based NLP     │
-    │ (keyword_rule_based_analysis)│
-    └──────────────────────────────┘
+| File | Description |
+|------|-------------|
+| `pubmed_scraper.py` | Retrieves PubMed abstracts related to Parkinson's Disease and drug repurposing using Biopython's Entrez API. |
+| `LLM_semantic_extraction.py` | Extracts structured information (drug candidates, mechanisms, repurposing potential) from abstracts using OpenAI LLMs. |
+| `keyword_rule_based_analysis.py` | Applies classical NLP techniques to extract drug classes and mechanistic terms from the literature. |
 
-2. Installation & Setup
-Clone the repository
-git clone https://github.com/yourusername/pd-drug-repurposing.git
-cd pd-drug-repurposing
+---
 
-Create a Python environment
-conda create -n repurpose python=3.12
-conda activate repurpose
+## Dependencies
 
-Install required libraries
-pip install pandas biopython openai python-dotenv
+You will need Python 3.9+ and the following packages:
+```bash
+pip install -r requirements.txt
+```
+Or install manually:
+```bash
+pip install pandas==2.2.2 biopython openai python-dotenv
+```
 
-3. Step-by-Step Instructions
-STEP 1 — Scrape PubMed Abstracts
-pubmed_scraper.py
-This script retrieves PubMed abstracts matching:
-Disease: Parkinson’s Disease
-Topic: Drug repurposing
-Years: 2020–2025
-Language: English
-It outputs parkinsons_drug_repurposing.csv.
+---
 
-Run:
+## Environment Variables
+
+The LLM extraction script uses OpenAI models, so you must set your API key:
+```bash
+export OPENAI_API_KEY="your-api-key"
+```
+The default model is set to `gpt-4`. You can adjust this in the configuration section of `LLM_semantic_extraction.py`.
+
+---
+
+## Data Access
+### PubMed Literature Scraping
+
+The script retrieves abstracts via the NCBI Entrez API. Set your email in the script (for Entrez compliance):
+```python
+Entrez.email = "youremail@domain.com"
+```
+
+Query parameters:
+
+| Parameter | Value |
+|-----------|-------|
+| Disease | Parkinson's Disease |
+| Topic | Drug repurposing |
+| Years | 2020–2025 |
+| Language | English |
+
+No manual download is required — data is fetched automatically.
+
+---
+
+## How to Run
+### 1. PubMed Scraper
+
+This script retrieves PubMed abstracts matching the search criteria.
+```bash
 python pubmed_scraper.py
-Output produced:
-parkinsons_drug_repurposing.csv
+```
 
-STEP 2 — LLM Semantic Extraction
-LLM_semantic_extraction.py
-semantic_analysis_openai
-This script:
-  Loads the PubMed CSV
-  Sends each abstract to an OpenAI model
-  Extracts structured information:
-    Drug candidates
-    Mechanisms
-    Clinical application
-    Repurposing potential (high/medium/low)
+**Output files:**
+- `parkinsons_drug_repurposing.csv` – raw PubMed abstracts
 
-Key finding
-Run:
-export OPENAI_API_KEY="your_api_key"
+---
+
+### 2. LLM Semantic Extraction
+
+This script sends each abstract to an OpenAI model and extracts structured information.
+```bash
 python LLM_semantic_extraction.py
+```
 
-Outputs:
-Console summaries of top drugs & mechanisms
-Aggregated structured results (results_df in memory)
+**Output:**
+- Console summaries of top drugs and mechanisms
+- Aggregated structured results with repurposing potential ratings (high/medium/low)
 
-STEP 3 — Keyword & Mechanism Analysis
-keyword_rule_based_analysis.py
+---
 
-This script applies classical NLP:
-Matches Parkinson's-related drug classes
-Extracts candidate drugs from titles
-Counts mechanistic terms:
-oxidative stress
-inflammation
-apoptosis
-mitochondrial function
---> Saves a summary text report
+### 3. Keyword & Mechanism Analysis
 
-Run:
+This script applies rule-based NLP to extract drug classes and mechanistic terms.
+```bash
 python keyword_rule_based_analysis.py
-Output file:
-analysis_summary.txt
+```
+
+**Output files:**
+- `analysis_summary.txt` – keyword and mechanism frequency analysis
+
+**Mechanistic terms tracked:**
+- Oxidative stress
+- Inflammation
+- Apoptosis
+- Mitochondrial function
+
+---
+
+## Reproducibility Summary
+To reproduce the full pipeline:
+
+1. **Clone this repository**
+```bash
+git clone https://github.com/yourusername/DSC-180A-B23-SHHZ.git
+cd DSC-180A-B23-SHHZ
+```
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Export your API key**
+```bash
+export OPENAI_API_KEY="your-api-key"
+```
+
+4. **Run each script sequentially**
+```bash
+python pubmed_scraper.py
+python LLM_semantic_extraction.py
+python keyword_rule_based_analysis.py
+```
+
+5. **Verify the generated output files**
+
+| File | Description |
+|------|-------------|
+| `parkinsons_drug_repurposing.csv` | Raw PubMed abstracts |
+| `analysis_summary.txt` | Final keyword/mechanism analysis report |
