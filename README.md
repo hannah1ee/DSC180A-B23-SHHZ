@@ -134,3 +134,15 @@ python keyword_rule_based_analysis.py
 |------|-------------|
 | `parkinsons_drug_repurposing.csv` | Raw PubMed abstracts |
 | `analysis_summary.txt` | Final keyword/mechanism analysis report |
+
+## Docker Environment
+
+To use the pre-built Docker image:
+```bash
+docker pull ghcr.io/stephanieyyue/dsc-180a-syyue
+```
+
+On DSMLP:
+```bash
+launch.sh -i ghcr.io/stephanieyyue/dsc-180a-syyue -W DSC180A_FA25_A00
+```
