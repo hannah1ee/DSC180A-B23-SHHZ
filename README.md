@@ -52,11 +52,21 @@ Python 3.12
 ```bash
 conda create -n dsc180 python=3.12 -y
 conda activate dsc180
-Install Dependencies
-pip install pandas tqdm biopython openai
-(Optional NER model):
-pip install scispacy spacy
-Required Environment Variables
+
+#Install Dependencies  
+pip install pandas==2.2.2 \
+    biopython>=1.81 \
+    openai>=1.0.0 \
+    python-dotenv>=1.0.0 \
+    beautifulsoup4>=4.12.0 \
+    matplotlib>=3.7.0 \
+    numpy>=1.24.0 \
+    requests>=2.31.0
+
+pip install scispacy spacy tqdm
+
+#Required Environment Variables  
+
 export NCBI_EMAIL="your_email@ucsd.edu"
 export OPENAI_API_KEY="your_api_key_here"
 ```
