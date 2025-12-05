@@ -23,13 +23,13 @@ Queries are constructed for the four diseases:
 - Alzheimer’s Disease
 
 Query example:
-
-("Alzheimer Disease"[MeSH Major Topic] OR Alzheimer*[Title/Abstract])
-AND ("Drug Repositioning"[MeSH Terms] OR repurpos* OR reposition* OR "drug rediscovery")
-AND hasabstract[text]
-AND english[Language]
-AND (1980:3000[pdat])
-
+```
+("Alzheimer Disease"[MeSH Major Topic] OR Alzheimer*[Title/Abstract])  
+AND ("Drug Repositioning"[MeSH Terms] OR repurpos* OR reposition* OR "drug rediscovery")  
+AND hasabstract[text]  
+AND english[Language]  
+AND (1980:3000[pdat])  
+```
 
 Output stored as:  
 `data/abstracts.csv`
@@ -63,8 +63,9 @@ export OPENAI_API_KEY="your_api_key_here"
 ## 3. Running the Code
 
 #### Step 1 — Fetch PubMed Abstracts
-python fetch_pubmed.py --query-file query_examples.txt --retmax 500 --out data/abstracts.csv
+```python fetch_pubmed.py --query-file query_examples.txt --retmax 500 --out data/abstracts.csv```
 #### Step 2 — Extract Drug Candidates (Cost-Controlled)
+```
 python openai_extract_candidates.py \
   --input data/abstracts.csv \
   --output data/openai_candidates_raw.csv \
@@ -72,12 +73,14 @@ python openai_extract_candidates.py \
   --max-cost 2.00 \
   --model gpt-4o-mini \
   --verbose
+```
 #### Step 3 — Flatten & Summarize Results
+```
 python flatten_openai_json.py \
   --in data/openai_candidates_raw.csv \
   --out data/openai_candidates_table.csv \
   --summary data/candidate_summary.csv
-
+```
 ## 4. Output Files
 | File                                                                                         | Description                                        |
 | -------------------------------------------------------------------------------------------- | -------------------------------------------------- |
