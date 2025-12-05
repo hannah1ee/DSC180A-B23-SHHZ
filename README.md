@@ -91,7 +91,22 @@ python flatten_openai_json.py \
   --out data/openai_candidates_table.csv \
   --summary data/candidate_summary.csv
 ```
-## 4. Output Files
+
+## 4. Docker Usage
+This repository includes a Dockerfile for containerized execution.  
+
+**Build the Docker Image**  
+`docer build -t dsc180a-b23 .`  
+
+**Run the Container**  
+The Dockerfile defaults to executing `main.py`:  
+`docker run --rm dsc180a-b23`  
+
+To mount local data:  
+`docker run --rm -v $(pwd)/data:/app/data dsc180a-b23`  
+
+
+## 5. Output Files
 | File                                                                                         | Description                                        |
 | -------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | `data/abstracts.csv`                                                                         | PubMed PMIDs, titles, and abstracts                |
@@ -100,7 +115,8 @@ python flatten_openai_json.py \
 | `candidate_summary.csv`                                                                      | Aggregated candidate hit counts by stance          |
 | (MTS-Dialog Component) `visit_summaries.csv`, `analysis_summary.csv`, `top5_medications.csv` | Structured dialogue summaries and analysis results |
 
-## 5. Future Work
+
+## 6. Future Work
 
 The repository will be expanded to include:
 - GO-based functional enrichment modules
