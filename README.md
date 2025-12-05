@@ -124,6 +124,6 @@ The repository will be expanded to include:
 - Neuro-symbolic reasoning pipelines for off-target prediction  
 These will integrate with existing extraction outputs.
 
-## Citation Guidance
+## Citation
 National Center for Biotechnology Information (NCBI). PubMed database.  
 Abacha, A. B., & Demner-Fushman, D. (2023). MTS-Dialog: A Dataset for Medical Therapeutic Strategy Understanding.  
