@@ -31,7 +31,7 @@ AND (1980:3000[pdat])
 ```
 
 Output stored as:  
-`data/abstracts.csv`
+`outputs/t2d_semantic_results.csv`
 
 
 ### B) MTS-Dialog Dataset
