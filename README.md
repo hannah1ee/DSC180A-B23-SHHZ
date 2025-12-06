@@ -63,7 +63,6 @@ pip install pandas==2.2.2 \
     requests>=2.31.0 \
     pydantic>=2.0.0 \
     tqdm>=4.66.0 \
-    semlib>=0.1.4 \
 
 pip install scispacy spacy tqdm
 
