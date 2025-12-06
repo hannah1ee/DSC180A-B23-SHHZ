@@ -1,7 +1,7 @@
 # DSC180A-B23-SHHZ
 
-Authors: Hannah Lee, Haily Vuong, Stephanie Yue, Hannah Lee, Haily Vuong, Zoey He
-Mentors:  Justin Eldridge, Murali Krishnam, Raju Pusapati
+**Authors:** Hannah Lee, Haily Vuong, Stephanie Yue, Hannah Lee, Haily Vuong, Zoey He  
+**Mentors:**  Justin Eldridge, Murali Krishnam, Raju Pusapati
 
 This repository contains two major components for the DSC 180A B23 Capstone:
 
