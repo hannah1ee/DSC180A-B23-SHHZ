@@ -1,0 +1,1935 @@
+[
+  {
+    "chief_complaint": "refill of my blood pressure medicine",
+    "family_illnesses": [],
+    "medications": [
+      "blood pressure medicine"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "worst headache of my life",
+    "family_illnesses": [],
+    "medications": [
+      "migraine cocktail",
+      "Morphine"
+    ],
+    "small_talk": true,
+    "doctor_advice": "We'll do a thorough exam and evaluation to make sure nothing serious is going on. While waiting for your CT results, I am ordering a migraine cocktail and Morphine. If the nurse takes longer than a few minutes to arrive, please ring the call bell."
+  },
+  {
+    "chief_complaint": "warts on my back end where the poop comes out",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "I'll have to take a look, but you'll be fine."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [
+      "Salmeterol inhaler",
+      "Fluticasone inhaler"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "I burned my hand.",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "asthma",
+    "family_illnesses": [],
+    "medications": [
+      "inhaler"
+    ],
+    "small_talk": true,
+    "doctor_advice": "It's important to carry your inhaler with you, especially during times when you're exercising or walking more than usual."
+  },
+  {
+    "chief_complaint": "lower back pain from car crash 4-5 years ago",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "No specific treatments recommended for back pain after the accident"
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "heart disease",
+      "polio"
+    ],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "prostate cancer",
+      "brain cancer",
+      "heart related issues",
+      "diabetes"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "bunion on foot",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "High blood pressure follow-up, right arm symptoms, stomach pain, mouth sores, tremors",
+    "family_illnesses": [],
+    "medications": [
+      "Mavik",
+      "Verapamil",
+      "Tylenol",
+      "Tums",
+      "Mylanta",
+      "Lexapro"
+    ],
+    "small_talk": true,
+    "doctor_advice": "Try a sample of Tarka (combined Mavik and verapamil) if you can tolerate the size; monitor mouth sores; keep an eye on tremors; no worry about right shoulder injury pain; continue current medications as needed."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "memory loss",
+    "family_illnesses": [
+      "peptic ulcer disease",
+      "possible stroke"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Check if she sees a neurologist by contacting her son."
+  },
+  {
+    "chief_complaint": "Numbness on the left side of the body",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "heart surgery",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "right side shoulder pain",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "nausea and vomiting",
+    "family_illnesses": [],
+    "medications": [
+      "Zofran"
+    ],
+    "small_talk": false,
+    "doctor_advice": "I'll order you some Zofran to help bring the nausea to bay."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "My asthma was acting up, and it felt like I couldn't breathe.",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "High blood pressure episodes about a year ago",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "Watch what you eat, especially during stress, as weight gain has occurred since last year."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Poor renal sufficiency, possibly due to dehydration or diabetic nephropathy",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "blood born pathogen exposure secondary to needlestick",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "car crash",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Rashes all over chest, legs, arms, and back due to poison ivy",
+    "family_illnesses": [],
+    "medications": [
+      "steroid injection (depomedrol 80 mg)",
+      "Benadryl",
+      "cortisone cream"
+    ],
+    "small_talk": false,
+    "doctor_advice": "Set up for another steroid injection"
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "skin cancer",
+      "high blood pressure"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "lump on the upper outer side of the left breast",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "ulcerative colitis"
+    ],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "weird lump in my chest",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "Let me take a look and then I'll have you walk down the hall to get an Xray so we can see what's going on."
+  },
+  {
+    "chief_complaint": "Involuntary urination (urge incontinence) especially when changing positions, more frequent urination in the morning related to Lasix use",
+    "family_illnesses": [],
+    "medications": [
+      "Lasix",
+      "vaginal cream"
+    ],
+    "small_talk": true,
+    "doctor_advice": "Don't worry, I will look into the concern about possible prolapse."
+  },
+  {
+    "chief_complaint": "problem talking and comprehending",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Increased shortness of breath and difficulty breathing, especially at night, with wheezing since morning",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "No signs of cardiovascular accident or heart attack; mild peripheral edema present and needs treatment"
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Balance is off, feeling tired and weak",
+    "family_illnesses": [],
+    "medications": [
+      "amoxicillin",
+      "Cipro"
+    ],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Pain in right hand after punching a wall",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "head injury",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Okay don't you worry."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Continue with his normal activities as long as he is feeling fine."
+  },
+  {
+    "chief_complaint": "Dizzy spells lasting 2-3 minutes, occurring 2-3 times per day, with hand stiffness and weakness after episodes.",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Low level of consciousness due to overdose of Xanax",
+    "family_illnesses": [],
+    "medications": [
+      "Xanax"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Mood stabilization",
+    "family_illnesses": [],
+    "medications": [
+      "Wellbutrin"
+    ],
+    "small_talk": false,
+    "doctor_advice": "It is important to not consume any alcohol or recreational drugs while taking Wellbutrin."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "type two diabetes",
+      "type one diabetes",
+      "breast cancer"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "disability affecting ability to work full time",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "pain",
+    "family_illnesses": [],
+    "medications": [
+      "pain medication"
+    ],
+    "small_talk": true,
+    "doctor_advice": "Continue with home exercise program and pool therapy to aid recovery."
+  },
+  {
+    "chief_complaint": "knee surgery",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "heart problems",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "Keep taking the right measures to maintain your heart health."
+  },
+  {
+    "chief_complaint": "diabetes, high blood pressure, high cholesterol, osteoporosis",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "Huntington Disease",
+      "mental issues"
+    ],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "lupus",
+      "Addison's disease",
+      "high blood pressure"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "No signs of infection were found during the exam."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [
+      "Oxycontin",
+      "Vicodin"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [
+      "Risperdal",
+      "Invega",
+      "multivitamins"
+    ],
+    "small_talk": false,
+    "doctor_advice": "You should mention all medications you are taking, including multivitamins."
+  },
+  {
+    "chief_complaint": "Difficulty going up the stairs without holding the rail and moving very slowly",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "High potassium",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Waiting to receive the blood report from the patient's doctor's office before providing further advice."
+  },
+  {
+    "chief_complaint": "multiple trauma due to car accident",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "He will require aftercare."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "allergies and asthma",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "heart attack",
+      "stroke"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "weakness on the right side of her face",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "polycythemia vera",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "cancer",
+      "heart disease"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "type two diabetes with high numbers",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "yearly physical",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "history of seizures, tummy pain, vomiting, rashes, bloating, scratching mouth, swelling around lips, eyes, and face",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "It looks like she's having some food intolerance."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [
+      "Advair",
+      "Allegra"
+    ],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "acne",
+    "family_illnesses": [],
+    "medications": [
+      "spironolactone"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "history of multiple falls",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Use a chair and bed monitor to help detect falls."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [
+      "antibiotic ointment"
+    ],
+    "small_talk": false,
+    "doctor_advice": "The nurse applied antibiotic ointment and a bandage to your foot and explained how to change the bandage at home."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "history of asthma and serious acne problem",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Congestion and increased snorting, unusual snoring, and redness with peeling skin around the right big toe.",
+    "family_illnesses": [],
+    "medications": [
+      "Allegra"
+    ],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "pain in my tooth",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "knee pain",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "ovarian cancer",
+      "liver cancer",
+      "heart disease",
+      "diabetes"
+    ],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "hypertension, kidney problems, frequent urinary infections, severe aortic stenosis",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "brain aneurysm"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "pain from a pimple on the buttock",
+    "family_illnesses": [
+      "high blood sugars"
+    ],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "Evaluating for surgery today."
+  },
+  {
+    "chief_complaint": "pain on left side",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "I would like to set you up with a consult with a surgeon."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Exposure to ant bait",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Poison Control confirmed that even if she ingested the small amount of ant bait, it is likely nontoxic."
+  },
+  {
+    "chief_complaint": "feeling kind of dizzy lately",
+    "family_illnesses": [
+      "dizziness (sister)"
+    ],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Your blood report is normal with negative cardiac enzymes, normal blood urea nitrogen, stable hydrogen, and normal creatinine levels."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "fatigue and blood in stool",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "You have mild chronic GVHD which is not severe enough to require therapy. Your rectal bleeding was due to benign polyps which were removed. You have mild iron deficiency which will be managed."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "pain from a bunion on foot",
+    "family_illnesses": [],
+    "medications": [
+      "antiinflammatories"
+    ],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "hypertension",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "weakness all around on left side, especially in left arm, difficulty lifting objects and walking, balance issues",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "diabetes, overweight, chronic bronchitis",
+    "family_illnesses": [],
+    "medications": [
+      "Zyprexa"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "years of pain in this shoulder",
+    "family_illnesses": [],
+    "medications": [
+      "antiinflammatories"
+    ],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "right shoulder pain",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "You need to have a repeat breast biopsy done after six months as previously advised."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "pain",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "diabetes",
+    "family_illnesses": [],
+    "medications": [
+      "insulin"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "intense burning in my throat after eating food, especially junk food",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Your symptoms are consistent with reflux disease. Additionally, your survey results indicate you have depression."
+  },
+  {
+    "chief_complaint": "No difficulty in swallowing, no nausea, vomiting or blood in vomit, no stomach pain",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "I'm sad and depressed",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "loose watery stools for more than two weeks, lethargy, tummy pain",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "I can have the nurse get your height after we do your exam."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Weakness on right side (arm, hand, face), history of seizures",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "We can definitely do some tests today to find out if you are diabetic or not."
+  },
+  {
+    "chief_complaint": "really bad migraine on the right frontal side for 48 hours with throbbing pain rated 9 or more",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Long history of lung disease (COPD), recent coughing, shortness of breath, feeling sleepy, tired, confused, diagnosed with pneumonia, weakness, muscle loss, instability, and a fall.",
+    "family_illnesses": [],
+    "medications": [
+      "oxygen"
+    ],
+    "small_talk": false,
+    "doctor_advice": "You should call for assistance if you need help like getting out of bed or need to use the restroom."
+  },
+  {
+    "chief_complaint": "asthma and sinus issues",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "mild nausea",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Pain on the left side of the neck, lower stomach area, and pelvic area after a car crash",
+    "family_illnesses": [],
+    "medications": [
+      "Accutane",
+      "birth control"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "yeast infections"
+    ],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "discomfort on the right side",
+    "family_illnesses": [],
+    "medications": [
+      "insulin"
+    ],
+    "small_talk": false,
+    "doctor_advice": "We did electromyography study and reevaluations of your symptoms which turned out to be negative. Continue monitoring your sugar levels and be cautious with insulin adjustments."
+  },
+  {
+    "chief_complaint": "Follow-up on arm pain and mood symptoms",
+    "family_illnesses": [],
+    "medications": [
+      "Lexapro"
+    ],
+    "small_talk": true,
+    "doctor_advice": "Take the full dosage of Lexapro every day to improve symptom relief. Monitor subtle hand shakiness and keep an eye on blood pressure and joint/bone pain."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "psychotic periods going off and on",
+    "family_illnesses": [],
+    "medications": [
+      "Clozaril",
+      "some other medications"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "lazy eyes"
+    ],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [
+      "thyroid meds",
+      "Lipitor"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "rounded back posture",
+    "family_illnesses": [
+      "kyphosis"
+    ],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "Further observation recommended; second opinion sought."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Injury to leg caused by a dog bite",
+    "family_illnesses": [],
+    "medications": [
+      "tetanus shot"
+    ],
+    "small_talk": false,
+    "doctor_advice": "The skin looks viable. We can save the tissue."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "I am tired today",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "He is up to date on all of his two month old immunizations."
+  },
+  {
+    "chief_complaint": "14-month-old daughter exposed to ant bait containing Borax, possibly ingested or had contact with it.",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "surgery today",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "enlarged thyroid with increased difficulty swallowing and throat tightness",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Schedule a visit next week to evaluate the enlarged thyroid."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "cancer",
+      "heart attack"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Pinched nerve in the C6 region on the left side and significant rotator cuff tear on the left side",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "Surgery for the rotator cuff tear is scheduled for July twentieth and should help with the pain. The patient is referred for a cervical spine MRI to be done today, with a follow-up visit planned for the end of the day."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "sinus infection and cough",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "It is probably a sinus infection with a secondary cough, and it is treatable."
+  },
+  {
+    "chief_complaint": "infection that has become septic",
+    "family_illnesses": [],
+    "medications": [
+      "intravenous antibiotics",
+      "anticoagulant"
+    ],
+    "small_talk": false,
+    "doctor_advice": "Start intravenous antibiotics and anticoagulant to prevent further clotting issues."
+  },
+  {
+    "chief_complaint": "On sick leave, unable to work",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "memory loss, like short term memory loss",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Pain from kidney stone stuck in the ureter on the left side",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "Discuss treatment options for the kidney stone blocking urine flow"
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Type two Diabetes and High Cholesterol",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Your diabetes is poorly controlled."
+  },
+  {
+    "chief_complaint": "acute on chronic right slipped capital femoral epiphysis",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Another operation is needed to remove the current screw and replace it with a shorter one to prevent further joint damage. The risk of infection is very low (less than 1%). Anesthesia will be used during surgery. Recovery is expected to be good, but there may be some changes in sensation and motion, stiffness, and a small risk of bleeding."
+  },
+  {
+    "chief_complaint": "severe lower back pain",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "generalized weakness and malaise for several months, worsening orthostatic dizziness for two weeks, intermittent headaches",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "rash and itching over right arm, tingling and numbness in legs and chest, pain in right shoulder blade, difficulty standing and walking",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "tremors for the past three to four years",
+    "family_illnesses": [],
+    "medications": [
+      "Coumadin"
+    ],
+    "small_talk": false,
+    "doctor_advice": "Not specified"
+  },
+  {
+    "chief_complaint": "dry cough and difficulty breathing",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "I'll take a look at your condition considering possible asbestos exposure."
+  },
+  {
+    "chief_complaint": "diarrhea and decreased appetite",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Substance use and difficulty staying clean",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "difficulties with vision like blurring and focusing",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "slipped capital femoral epiphysis",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "nervousness and anxiety",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Persistent lower back, buttock, and leg pain following lumbar disc replacement surgery",
+    "family_illnesses": [],
+    "medications": [
+      "Elavil",
+      "Topamax",
+      "Cymbalta",
+      "Neurontin",
+      "Lexapro"
+    ],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [
+      "Abilify"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Symptoms related to Streptococcus pneumoniae infection",
+    "family_illnesses": [],
+    "medications": [
+      "antibiotics"
+    ],
+    "small_talk": false,
+    "doctor_advice": "Take a course of antibiotics. Symptoms should improve within three to four days. Inform the doctor if symptoms do not improve or worsen."
+  },
+  {
+    "chief_complaint": "Irregular heart rhythm",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "wood splinter in the fifth fingernail on left hand",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "feet problems with significant calcaneal valgus deformity and pain",
+    "family_illnesses": [],
+    "medications": [
+      "antibiotics"
+    ],
+    "small_talk": true,
+    "doctor_advice": "Recommend calcaneal osteotomy and Achilles lengthening procedure. Post-surgery, strict nonweightbearing for at least six weeks and brace use for six months. Risks include infection (less than 1%), bleeding, changes in sensation, hardware failure, need for hardware removal, possible nonunion, and possible failure to correct deformity, but these are rare."
+  },
+  {
+    "chief_complaint": "Complete fractures of both bones in the right arm with shortening bayonet apposition after a fall",
+    "family_illnesses": [],
+    "medications": [
+      "antibiotics"
+    ],
+    "small_talk": true,
+    "doctor_advice": "Options include casting or surgery. Children generally heal well with casting, but surgery is also an option with low risk of infection (less than 1%) controlled by antibiotics. Other risks include bleeding, changes in sensation and motion, hardware failure, and need for later hardware removal, but these are uncommon and the surgery has great results."
+  },
+  {
+    "chief_complaint": "dark spot on leg",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "I think I'll be able to remove it surgically."
+  },
+  {
+    "chief_complaint": "surgery day",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Reproductive history discussion",
+    "family_illnesses": [],
+    "medications": [
+      "birth control pills"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "nausea, vomiting, fever, blood in sputum, chest pain",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "hypothermia",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Don't worry, we will take care of him."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "multiple canker sores in mouth after increasing methotrexate dosage",
+    "family_illnesses": [],
+    "medications": [
+      "methotrexate"
+    ],
+    "small_talk": false,
+    "doctor_advice": "Get bloodwork done, decrease methotrexate dosage back to previous amount, and follow up in two weeks."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "concern about possible fracture",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "No open fracture or bone abnormality seen in the x-ray."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Baby got into ant bait containing Borax",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "numbness in right upper arm",
+    "family_illnesses": [],
+    "medications": [
+      "carboplatin",
+      "Taxol"
+    ],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "difficulty swallowing",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Get imaging done and try to get a consult with an endocrinologist before deciding on surgery."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "coronary artery disease",
+      "high blood pressure"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Injury from fall resulting in whiplash, concussion, and recurrent acoustic neuroma",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Continue with planned radiation treatment and follow up with neurosurgical care as needed."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "arthritis in both knees",
+    "family_illnesses": [],
+    "medications": [
+      "anticoagulants"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [
+      "prostate cancer",
+      "Hodgkin's disease",
+      "melanoma"
+    ],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Accidentally jammed needle inside right hand index finger while measuring blood gas",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "fluid taken out of back",
+    "family_illnesses": [],
+    "medications": [
+      "Ampicillin",
+      "Cefotaxime",
+      "Albuterol nebulizer"
+    ],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "knee pain, left worse than right",
+    "family_illnesses": [],
+    "medications": [
+      "antiinflammatories",
+      "injections",
+      "narcotics"
+    ],
+    "small_talk": true,
+    "doctor_advice": "If antiinflammatories, injections, and narcotics haven't helped, you are a good candidate for knee replacements, starting with the left knee."
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": "Try quitting smoking."
+  },
+  {
+    "chief_complaint": "Cough not getting better, sore taste in mouth, funny feeling in eyes, back pain, right shoulder and neck pain",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "weakness on left side after brain tumor removal",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "Pain",
+    "family_illnesses": [],
+    "medications": [
+      "Nexium"
+    ],
+    "small_talk": false,
+    "doctor_advice": ""
+  },
+  {
+    "chief_complaint": "hemorrhoids, constipation, and cough",
+    "family_illnesses": [],
+    "medications": [
+      "prune juice",
+      "Tylenol",
+      "Cymbalta"
+    ],
+    "small_talk": true,
+    "doctor_advice": "Keep monitoring blood sugars, prescribed a laxative for constipation, continue Cymbalta for depression treatment for at least one year."
+  },
+  {
+    "chief_complaint": "Urinary urgency and leakage when coughing, worsened walking and balance, tingling and pain in legs",
+    "family_illnesses": [],
+    "medications": [],
+    "small_talk": true,
+    "doctor_advice": "Take care and follow up next time"
+  },
+  {
+    "chief_complaint": "swellings",
+    "family_illnesses": [],
+    "medications": [
+      "insulin pump"
+    ],
+    "small_talk": false,
+    "doctor_advice": "Book an appointment with Doctor Z for swellings, follow up with endocrinologist Doctor A for insulin pump adjustments, see gastroenterologist Doctor B for J tube issues, and see Doctor Y if condition changes regarding colon cancer."
+  },
+  {
+    "chief_complaint": "afib",
+    "family_illnesses": [],
+    "medications": [
+      "Metoprolol",
+      "Premarin"
+    ],
+    "small_talk": true,
+    "doctor_advice": ""
+  }
+]

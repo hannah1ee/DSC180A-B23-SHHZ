@@ -2,12 +2,13 @@
 import os, time, json
 import pandas as pd
 from tqdm import tqdm
+from config import OPENAI_API_KEY
 
 from utils.extractor import extract_visit_info
 from utils.analysis import get_top_medications, print_top_medications
 
 # --- Set API key ---
-os.environ["OPENAI_API_KEY"] = "your-api-key-here"
+os.environ["OPENAI_API_KEY"] = api_key=OPENAI_API_KEY
 
 # --- Load dataset ---
 url = "https://raw.githubusercontent.com/abachaa/MTS-Dialog/refs/heads/main/Main-Dataset/MTS-Dialog-TrainingSet.csv"
@@ -16,7 +17,7 @@ print(f"Loaded {len(df)} conversations.")
 
 # --- Process dialogues ---
 structured_data = []
-N = 50  # limit for testing or API token cost
+N = 250  # limit for testing
 
 print(f"Extracting info from {N} dialogues...")
 for dialogue in tqdm(df["dialogue"].head(N)):
