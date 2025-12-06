@@ -72,25 +72,71 @@ export OPENAI_API_KEY="your_api_key_here"
 ```
 ## 3. Running the Code
 
-#### Step 1 — Fetch PubMed Abstracts
-```python fetch_pubmed.py --query-file query_examples.txt --retmax 500 --out data/abstracts.csv```
-#### Step 2 — Extract Drug Candidates (Cost-Controlled)
+This repository contains **two runnable projects**, each with its `main.py` script.
+
+For both projects, the only required user action is:  
+1. Open the `config.py` file inside the project folder
+2. Add your API key(s) or configuration values
+3. Run:  
+`python main.py`
+
+#### Project 1 - Clinical Semantic Extraction
+**Directory:** `project1_clinical_extraction/`  
+
+**Purpose:**  
+Runs SemLib-style extraction on patient–doctor interactions, producing:  
+- structured clinical concept summaries
+- medication lists
+- symptoms and SDoH extractions
+- aggregated clinical analysis tables
+
+Key files:
 ```
-python openai_extract_candidates.py \
-  --input data/abstracts.csv \
-  --output data/openai_candidates_raw.csv \
-  --limit 500 \
-  --max-cost 2.00 \
-  --model gpt-4o-mini \
-  --verbose
+project1_clinical_extraction/
+│ main.py # orchestrates extraction + analysis pipeline
+│ config.py # user edits API keys + settings here
+│ outputs/ # final CSV outputs stored here
+└── utils/
+analysis.py # computes summary statistics
+extractor.py # handles semantic extraction
+json_utils.py # formatting + saving utilities
 ```
-#### Step 3 — Flatten & Summarize Results
+**To run Project 1:**  
 ```
-python flatten_openai_json.py \
-  --in data/openai_candidates_raw.csv \
-  --out data/openai_candidates_table.csv \
-  --summary data/candidate_summary.csv
+cd project1_clinical_extraction
+python main.py
 ```
+
+Outputs will appear in `project1_clinical_extraction/outputs/`.  
+
+#### Project 2 - PubMed Abstract Extraction & Semantic Analysis
+**Directory:** `project2_pubmed_abstracts/`  
+
+**Purpose:**  
+- Fetches PubMed abstracts for diseases defined in `config.py`
+- Runs keyword baseline
+- Runs SemLib/OpenAI semantic extraction
+- Postprocesses outputs into final CSV tables
+
+Key files:
+```
+project2_pubmed_abstracts/
+│ main.py # orchestrates full PubMed pipeline
+│ config.py # user edits API keys + disease list + output paths
+│ output/ # all final CSVs saved here
+└── utils/
+pubmed_fetcher.py # handles Entrez API fetching
+semantic_extractor.py# runs AI-based semantic extraction
+keyword_baseline.py # keyword-only comparison
+postprocess.py # result cleaning + table generation
+```
+**To run Project 2:**  
+```
+cd project2_pubmed_abstracts
+python main.py
+```
+
+Outputs will appear in `project2_pubmed_abstracts/output/`.
 
 ## 4. Docker Usage
 This repository includes a Dockerfile for containerized execution.  
@@ -105,18 +151,19 @@ The Dockerfile defaults to executing `main.py`:
 To mount local data:  
 `docker run --rm -v $(pwd)/data:/app/data dsc180a-b23`  
 
+## GitHub Container Registry (GHCR) Image
+Docker images are automatically built and pushed using GitHub Actions.  
 
-## 5. Output Files
-| File                                                                                         | Description                                        |
-| -------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| `data/abstracts.csv`                                                                         | PubMed PMIDs, titles, and abstracts                |
-| `openai_candidates_raw.csv`                                                                  | One extracted JSON result per abstract             |
-| `openai_candidates_table.csv`                                                                | Tidy table with drug, mechanism, stance, evidence  |
-| `candidate_summary.csv`                                                                      | Aggregated candidate hit counts by stance          |
-| (MTS-Dialog Component) `visit_summaries.csv`, `analysis_summary.csv`, `top5_medications.csv` | Structured dialogue summaries and analysis results |
+Latest image:  
+`ghcr.io/hannah1ee/dsc180a-b23:latest`  
+Commit‑specific image:  
+`ghcr.io/hannah1ee/dsc180a-b23:<commit-sha>`  
+Pull the image:  
+`docker pull ghcr.io/hannah1ee/dsc180a-b23:latest`  
+Run it: 
+`docker run --rm ghcr.io/hannah1ee/dsc180a-b23:latest`  
 
-
-## 6. Future Work
+## 5. Future Work
 
 The repository will be expanded to include:
 - GO-based functional enrichment modules
