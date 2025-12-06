@@ -63,7 +63,8 @@ pip install pandas==2.2.2 \
     requests>=2.31.0 \
     pydantic>=2.0.0 \
     tqdm>=4.66.0 \
-    nest_asyncio
+    nest_asyncio \
+    semlib
 
 pip install scispacy spacy tqdm
 
