@@ -143,7 +143,7 @@ Outputs will appear in `project2_pubmed_abstracts/output/`.
 This repository includes a Dockerfile for containerized execution.  
 
 **Build the Docker Image**  
-`docer build -t dsc180a-b23 .`  
+`docker build -t dsc180a-b23 .`  
 
 **Run the Container**  
 The Dockerfile defaults to executing `main.py`:  
