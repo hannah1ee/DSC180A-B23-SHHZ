@@ -17,7 +17,7 @@ jobs:
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
-        password: ${{ secrets.PAT }}
+        password: ${{ secrets.DSC180A_SECRET }}
 
     - name: Build and Push
       uses: docker/build-push-action@v5
