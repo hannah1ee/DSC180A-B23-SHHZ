@@ -1,7 +1,8 @@
-import asyncio, re, pandas as pd
+import asyncio, pandas as pd
+from tqdm.asyncio import tqdm_asyncio
 from semlib import Session
 from semlib.cache import OnDiskCache
-from .config import MODEL_NAME, SAMPLE_N
+from config import MODEL_NAME, SAMPLE_N
 
 template = (
     "You are a biomedical literature analysis assistant.\n"
@@ -15,16 +16,29 @@ template = (
     "- DrugName: short description of mechanism or rationale"
 )
 
+
+async def process_single_abstract(session, abs_, index):
+    """Run SemLib prompt safely for one abstract."""
+    try:
+        result = await session.prompt(template.format(abstract=abs_))
+        return {"index": index, "output": str(result)}
+    except Exception as e:
+        return {"index": index, "output": f"Error: {e}"}
+
+
 async def run_sem_extraction(df):
+    """Run SemLib extraction with async progress bar."""
     session = Session(model=MODEL_NAME, cache=OnDiskCache("t2d_cache.db"))
     sample_abstracts = df["abstract"].head(SAMPLE_N).tolist()
-    results = []
 
-    for i, abs_ in enumerate(sample_abstracts, 1):
-        try:
-            result = await session.prompt(template.format(abstract=abs_))
-            results.append({"index": i, "output": str(result)})
-        except Exception as e:
-            results.append({"index": i, "output": f"Error: {e}"})
+    print(f"\nRunning SemLib extraction on {len(sample_abstracts)} abstracts...\n")
 
+    # Create async tasks
+    tasks = [
+        process_single_abstract(session, abs_, i)
+        for i, abs_ in enumerate(sample_abstracts, 1)
+    ]
+
+    # tqdm_asyncio gathers with live progress
+    results = await tqdm_asyncio.gather(*tasks, desc="Extracting", total=len(tasks))
     return pd.DataFrame(results)

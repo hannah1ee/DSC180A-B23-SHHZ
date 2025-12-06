@@ -1,6 +1,6 @@
 import pandas as pd
 from Bio import Entrez
-from .config import MAX_CHARS, EMAIL
+from config import MAX_CHARS, EMAIL
 
 def fetch_pubmed_abstracts():
     Entrez.email = EMAIL

@@ -5,7 +5,7 @@ import os, nest_asyncio
 # ============================================
 nest_asyncio.apply()
 
-os.environ["OPENAI_API_KEY"] = "my-key"
+os.environ["OPENAI_API_KEY"] = "INSERT KEY HERE"
 os.environ["SEMLIB_DEFAULT_MODEL"] = "openai/gpt-4.1-mini"
 os.environ["SEMLIB_MAX_CONCURRENCY"] = "3"
 
