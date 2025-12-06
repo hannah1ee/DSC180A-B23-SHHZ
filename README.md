@@ -21,6 +21,7 @@ Queries are constructed for the four diseases:
 - Lung Cancer
 - Alzheimer’s Disease
 
+
 Query example:
 ```
 ("Alzheimer Disease"[MeSH Major Topic] OR Alzheimer*[Title/Abstract])  
