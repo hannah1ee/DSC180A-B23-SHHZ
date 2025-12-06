@@ -2,13 +2,11 @@
 
 Authors: Stephanie, Hannah, Haily, Zoey
 
-This repository contains three major components for the DSC 180A B23 Capstone:
+This repository contains two major components for the DSC 180A B23 Capstone:
 
 1. **Semantic Extraction of Patient–Doctor Interactions**  
 
 2. **Drug Repurposing Literature Mining Across Four Diseases**  
-
-3. **Ontology-Grounded Neuro-Symbolic Framework for Analyzing Pralsetinib Off-Target Effects**
 
 ---
 
