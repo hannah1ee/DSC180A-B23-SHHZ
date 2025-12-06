@@ -5,14 +5,14 @@ Authors: Stephanie, Hannah, Haily, Zoey
 This repository contains two major components for the DSC 180A B23 Capstone:
 
 1. **Semantic Extraction of Patient–Doctor Interactions**  
-
+tools for parsing patient–doctor dialogues and producing structured outputs
 2. **Drug Repurposing Literature Mining Across Four Diseases**  
-
+automated retrieval and semantic extraction of abstracts related to drug repurposing across four diseases
 ---
 
 ## 1. Data Access
 
-### A) PubMed Abstracts (Current Component)
+### A) PubMed Abstracts
 Retrieved automatically via **NCBI E-utilities API** (Biopython)
 Queries are constructed for the four diseases:
 - Type II Diabetes
@@ -158,7 +158,7 @@ Commit‑specific image:
 `ghcr.io/hannah1ee/dsc180a-b23:<commit-sha>`  
 Pull the image:  
 `docker pull ghcr.io/hannah1ee/dsc180a-b23:latest`  
-Run it: 
+Run it:  
 `docker run --rm ghcr.io/hannah1ee/dsc180a-b23:latest`  
 
 ## 5. Future Work
