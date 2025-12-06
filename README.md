@@ -163,7 +163,31 @@ Pull the image:
 Run it: 
 `docker run --rm ghcr.io/hannah1ee/dsc180a-b23:latest`  
 
-## 5. Future Work
+## 5. Output Files
+
+#### Project 1
+**Directory:** `project1_clinical_extraction/outputs/`  
+
+| File                       | Description                                                             |
+| -------------------------- | ----------------------------------------------------------------------- |
+| `clinical_summary.csv`     | Aggregated symptoms, medications, SDoH, and extracted clinical concepts |
+| `visit_level_outputs.json` | Per-conversation structured extraction results                          |
+| `top_medications.csv`      | Frequency table of medication mentions                                  |
+| `sdoh_summary.csv`         | Social determinants of health counts                                    |
+
+#### Project 2
+**Directory:** `project2_pubmed_abstracts/output/`  
+
+| File                    | Description                                      |
+| ----------------------- | ------------------------------------------------ |
+| `abstracts_raw.csv`     | Retrieved PubMed metadata + abstracts            |
+| `keyword_baseline.csv`  | Baseline extraction using keyword matching       |
+| `semantic_results.json` | SemLib/OpenAI semantic extraction output         |
+| `semantic_summary.csv`  | Cleaned table of drugs, mechanisms, and evidence |
+| `combined_results.csv`  | Final merged table used for analysis             |
+
+
+## 6. Future Work
 
 The repository will be expanded to include:
 - GO-based functional enrichment modules
