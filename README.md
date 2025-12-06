@@ -60,7 +60,10 @@ pip install pandas==2.2.2 \
     beautifulsoup4>=4.12.0 \
     matplotlib>=3.7.0 \
     numpy>=1.24.0 \
-    requests>=2.31.0
+    requests>=2.31.0 \
+    pydantic>=2.0.0 \
+    tqdm>=4.66.0 \
+    semlib>=0.1.4 \
 
 pip install scispacy spacy tqdm
 
